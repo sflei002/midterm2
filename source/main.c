@@ -15,7 +15,7 @@
 typedef enum ping_states { PInit, P_high, P_low                                          } ping_states;
 typedef enum detect_eq_states { DEQInit, waitlow, dhigh, dlow                                    } detect_eq_states;
 typedef enum detect_max_amp_states { DMAInit, awaitlow, ahigh, alow                               } detect_max_amp_states;
-typedef enum detect_zc_states { DZCInit,                                    } detect_zc_states;
+typedef enum detect_zc_states { DZCInit, B2is1                                   } detect_zc_states;
 typedef enum transmit_states {TInit, state1                                       } transmit_states;
 
 /* shared variables --- fill in as needed */
